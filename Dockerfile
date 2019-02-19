@@ -1,3 +1,3 @@
 FROM nginx
 
-ENTRYPOINT ["bin/bash"]
+COPY write-env-to-json.sh .
